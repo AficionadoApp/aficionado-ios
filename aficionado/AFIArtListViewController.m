@@ -30,7 +30,6 @@
     self.searchBar.delegate = self;
     self.artViewController = [AFIArtViewController new];
     self.submitViewController = [AFISubmitViewController new];
-
 }
 
 #pragma mark UISearchBarDelegate methods

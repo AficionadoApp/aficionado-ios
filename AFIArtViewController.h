@@ -1,6 +1,6 @@
 @class AFIArt;
 
-@interface AFIArtViewController : UIViewController
+@interface AFIArtViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
