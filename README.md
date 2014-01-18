@@ -1,3 +1,1 @@
-Description at: https://github.com/dkorac/aficionado
-
-API at: https://github.com/dkorac/aficionado-api
+Description at https://github.com/AficionadoApp/aficionado
