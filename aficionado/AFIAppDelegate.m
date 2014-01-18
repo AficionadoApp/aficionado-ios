@@ -8,7 +8,8 @@
 
 #import "AFIAppDelegate.h"
 
-#import "AFIArtViewController.h"
+#import "AFIArtListViewController.h"
+#import "AFISubmitViewController.h"
 
 @implementation AFIAppDelegate
 
@@ -20,13 +21,13 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    UITabBarController *tabBarVC = [UITabBarController new];
+    UINavigationController *navigationVC = [UINavigationController new];
     
-    AFIArtViewController *artViewController = [AFIArtViewController new];
+    AFIArtListViewController *artViewController = [AFIArtListViewController new];
 
-    tabBarVC.viewControllers = @[artViewController];
+    navigationVC.viewControllers = @[artViewController];
     
-    [self.window setRootViewController:tabBarVC];
+    [self.window setRootViewController:navigationVC];
     
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
